@@ -8,8 +8,8 @@
  * @author gbudiman
  */
 public class cell {
-    private String name;
-    private int data;
+    protected String name;
+    protected int data;
 
     public cell(String n, int init) {
         this.name = n;
