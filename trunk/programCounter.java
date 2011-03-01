@@ -23,6 +23,10 @@ public class programCounter extends cell {
         return this.getData();
     }
 
+    public String PCHex() {
+        return this.getHex();
+    }
+
     public int portAddPC() {
         return this.getData() + 4;
     }
